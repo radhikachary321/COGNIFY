@@ -110,6 +110,7 @@ EJS – Dynamic rendering (if needed)
 # 📂 Project Structure
 
 /project-folder
+
   |-- views/          # EJS templates
   
   |-- public/         # Static files (CSS, JS)
