@@ -111,9 +111,13 @@ EJS – Dynamic rendering (if needed)
 
 /project-folder
   |-- views/          # EJS templates
+  
   |-- public/         # Static files (CSS, JS)
+  
   |-- server.js       # Express server with validation
+  
   |-- package.json    # Dependencies
+  
   |-- README.md       # Documentation
 
 # ⚡ How to Run
