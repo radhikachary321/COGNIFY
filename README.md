@@ -156,3 +156,75 @@ Data validation on both client and server.
 Temporary server-side storage of form data.
 ![Image](https://github.com/user-attachments/assets/0da89adf-0ca8-4105-bb69-355738301ef5)
 
+
+# task3
+# Inline Styles, Basic Interaction, and Server-Side Validation
+
+This project focuses on expanding inline styles, adding basic client-side interaction, and implementing server-side validation for form submissions.
+
+# 🎯 Objective
+
+Extend HTML with more complex forms and interactions
+
+Apply inline JavaScript for client-side form validation
+
+Validate submitted data on the server side
+
+
+# ⚡ Features
+
+Enhanced HTML forms with multiple input fields
+
+Inline JavaScript for real-time client-side validation
+
+Server-side validation using Express.js
+
+
+# 🛠 Technologies Used
+
+HTML – Extended form structures
+
+JavaScript – Client-side validation
+
+Node.js & Express.js – Backend + server-side validation
+
+EJS – Dynamic rendering (if needed)
+
+
+# 📂 Project Structure
+
+/project-folder
+  |-- views/          # EJS templates
+  |-- public/         # Static files (CSS, JS)
+  |-- server.js       # Express server with validation
+  |-- package.json    # Dependencies
+  |-- README.md       # Documentation
+
+# ▶ How to Run
+
+1. Clone this repository:
+
+git clone <your-repo-link>
+cd <your-project-folder>
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Start the server:
+
+node server.js
+
+
+4. Open in browser:
+
+http://localhost:3000
+
+
+
+# 🖼 Output Preview
+
+Data validation on both client and server
+
