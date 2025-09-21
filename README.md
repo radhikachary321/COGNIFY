@@ -37,8 +37,11 @@ This project introduces the concept of server-side rendering and basic form subm
   |-- views/          # EJS templates
   
   |-- public/         # Static files (CSS, JS)
+  
   |-- server.js       # Express server
+  
   |-- package.json    # Project dependencies
+  
   |-- README.md       # Documentation
   
 # ⚡ How to Run
