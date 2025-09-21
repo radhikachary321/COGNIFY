@@ -229,3 +229,12 @@ http://localhost:3000
 Data validation on both client and server
 ![Image](https://github.com/user-attachments/assets/ce8f3043-f65d-4367-b4f7-c32b17e30f96)
 
+
+# task4
+# output
+![Image](https://github.com/user-attachments/assets/06a9b3bc-a6b3-4342-ba31-bd2be4ffd9f4)
+
+![Image](https://github.com/user-attachments/assets/3dbeb910-d854-47c8-ad01-7ea611598db4)
+
+![Image](https://github.com/user-attachments/assets/dc2e0a0b-4b6f-45e9-a27e-9a2aef9707d5
+
