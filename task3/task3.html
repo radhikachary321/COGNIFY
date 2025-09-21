@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Advanced CSS & Responsive Design</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2b5876, #4e4376);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      animation: fadeInUp 2s ease-in-out;
+    }
+
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .btn-custom {
+      background: #4e4376;
+      color: white;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .btn-custom:hover {
+      background: #2b5876;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Cognifyz</h1>
+    <p>"Where Data Meets Intelligence"</p>
+  </header>
+
+  <!-- Section 1 -->
+  <section class="section container text-center">
+    <h2 class="mb-4">Task 3: Advanced CSS Styling & Responsive Design</h2>
+    <p class="mb-5">Enhance your skills with animations, transitions, and responsive layouts using Bootstrap.</p>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-3 h-100">
+          <h5>Step 1</h5>
+          <p>Create a more complex layout with multiple sections.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 h-100">
+          <h5>Step 2</h5>
+          <p>Experiment with CSS properties for advanced styling (e.g., transitions, animations).</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 h-100">
+          <h5>Step 3</h5>
+          <p>Utilize a CSS framework (e.g., Bootstrap) for a consistent and responsive UI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="section bg-light text-center">
+    <div class="container">
+      <h2>Responsive Design in Action</h2>
+      <p class="mb-4">Resize the window to see the layout adapt smoothly!</p>
+      <button class="btn btn-custom px-4 py-2">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Cognifyz. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

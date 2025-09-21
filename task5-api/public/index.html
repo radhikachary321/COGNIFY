@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Users CRUD — Task 5</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Users (CRUD) — API Integration Demo</h1>
+
+    <section class="form-section">
+      <form id="user-form">
+        <input id="name" placeholder="Name" required />
+        <input id="email" type="email" placeholder="Email" required />
+        <input type="hidden" id="editing-id" />
+        <button type="submit" id="submit-btn">Add User</button>
+        <button type="button" id="cancel-edit" class="hidden">Cancel</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Email</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="users-tbody">
+          <!-- populated by script.js -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 - Form Validation Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#register">Register</a>
+    <a href="#profile">Profile</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="page">
+    <h2>Welcome to Task 4 Demo</h2>
+    <p>This project demonstrates form validation, dynamic DOM updates, and client-side routing.</p>
+  </section>
+
+  <!-- Register Section -->
+  <section id="register" class="page">
+    <h2>Registration Form</h2>
+    <form id="regForm">
+      <label>Full Name:</label>
+      <input type="text" id="name" required><br>
+
+      <label>Email:</label>
+      <input type="email" id="email" required><br>
+
+      <label>Password:</label>
+      <input type="password" id="password" required><br>
+
+      <label>Confirm Password:</label>
+      <input type="password" id="confirmPassword" required><br>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <!-- Live Preview -->
+    <div class="preview">
+      <h3>Live Preview</h3>
+      <p><b>Name:</b> <span id="previewName"></span></p>
+      <p><b>Email:</b> <span id="previewEmail"></span></p>
+    </div>
+  </section>
+
+  <!-- Profile Section -->
+  <section id="profile" class="page">
+    <h2>User Profile</h2>
+    <p><b>Name:</b> <span id="profileName">-</span></p>
+    <p><b>Email:</b> <span id="profileEmail">-</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

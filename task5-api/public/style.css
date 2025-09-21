@@ -1,0 +1,147 @@
+/* Updated Styles — Vibrant and Clean UI */
+
+:root {
+  --bg: #f3f6fc;
+  --card: #ffffff;
+  --text: #1c1c1c;
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --danger: #ef4444;
+  --danger-dark: #dc2626;
+  --border: #e5e7eb;
+  --font: 'Segoe UI', Roboto, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.2s;
+}
+
+form input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+form button {
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#submit-btn {
+  background: var(--primary);
+  color: white;
+}
+
+#submit-btn:hover {
+  background: var(--primary-dark);
+}
+
+#cancel-edit {
+  background: var(--danger);
+  color: white;
+}
+
+#cancel-edit:hover {
+  background: var(--danger-dark);
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background: var(--primary);
+  color: white;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+tbody tr:hover {
+  background-color: #f9fbfe;
+}
+
+td button.action {
+  margin-right: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+td button.edit {
+  background: #facc15;
+  color: #333;
+}
+
+td button.edit:hover {
+  background: #eab308;
+}
+
+td button.delete {
+  background: var(--danger);
+  color: white;
+}
+
+td button.delete:hover {
+  background: var(--danger-dark);
+}
