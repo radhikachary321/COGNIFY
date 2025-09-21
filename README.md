@@ -227,4 +227,5 @@ http://localhost:3000
 # 🖼 Output Preview
 
 Data validation on both client and server
+![Image](https://github.com/user-attachments/assets/ce8f3043-f65d-4367-b4f7-c32b17e30f96)
 
