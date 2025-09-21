@@ -69,3 +69,7 @@ cd <your-project-folder>
 ![Image](https://github.com/user-attachments/assets/e271c8dd-5a42-4bef-9a76-14a273a64f45)
 
 
+
+# task2
+
+
