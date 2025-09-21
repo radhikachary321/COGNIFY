@@ -236,5 +236,7 @@ Data validation on both client and server
 
 ![Image](https://github.com/user-attachments/assets/3dbeb910-d854-47c8-ad01-7ea611598db4)
 
-![Image](https://github.com/user-attachments/assets/dc2e0a0b-4b6f-45e9-a27e-9a2aef9707d5
+![Image](https://github.com/user-attachments/assets/dc2e0a0b-4b6f-45e9-a27e-9a2aef9707d5)
+
+![Image](https://github.com/user-attachments/assets/058329c3-b2b1-4a7e-8287-79def2f8bf27)
 
