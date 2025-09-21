@@ -3,9 +3,13 @@
 This project introduces the concept of server-side rendering and basic form submissions using Node.js and Express.
 # Objective
 • To build a simple HTML structure with forms.
+
 • To set up a Node.js server with Express.
+
 • To handle form submissions using server-side endpoints.
+
 • To dynamically render HTML using EJS.
+
 # 🚀 Features
 • User input form (HTML).
 • Express.js server setup.
@@ -34,5 +38,6 @@ cd <your-project-folder>
 • Open in browser:
 • http://localhost:3000
 # 📸 Output Preview
+![Image](https://github.com/user-attachments/assets/e271c8dd-5a42-4bef-9a76-14a273a64f45)
 
 
