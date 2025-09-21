@@ -11,33 +11,58 @@ This project introduces the concept of server-side rendering and basic form subm
 • To dynamically render HTML using EJS.
 
 # 🚀 Features
+
 • User input form (HTML).
+
 • Express.js server setup.
+
 • POST/GET endpoints to handle form data.
+
 • Dynamic server-side rendering with EJS.
+
 # 🛠️ Technologies Used
+
 • HTML – Frontend structure
+
 • Node.js – Runtime environment
+
 • Express.js – Backend framework
+
 • EJS – Server-side rendering
+
 # 📂 Project Structure
+
 /project-folder
+
   |-- views/          # EJS templates
+  
   |-- public/         # Static files (CSS, JS)
   |-- server.js       # Express server
   |-- package.json    # Project dependencies
   |-- README.md       # Documentation
+  
 # ⚡ How to Run
+
 Clone this repository:
+
 git clone <your-repo-link>
+
 cd <your-project-folder>
+
 # Install dependencies:
+
 • npm install
+
 • Start the server:
+
 • node server.js
+
 • Open in browser:
+
 • http://localhost:3000
+
 # 📸 Output Preview
+
 ![Image](https://github.com/user-attachments/assets/e271c8dd-5a42-4bef-9a76-14a273a64f45)
 
 
