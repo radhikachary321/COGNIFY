@@ -149,4 +149,5 @@ Real-time error messages (client-side).
 Data validation on both client and server.
 
 Temporary server-side storage of form data.
+![Image](https://github.com/user-attachments/assets/0da89adf-0ca8-4105-bb69-355738301ef5)
 
