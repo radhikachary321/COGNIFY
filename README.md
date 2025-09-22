@@ -325,61 +325,65 @@ Improve accessibility with ARIA support.
 
 # 📖 Introduction
 
-This project demonstrates:
+• This project demonstrates:
 
-Advanced form validation (e.g., password strength, real-time checks).
+• Advanced form validation (e.g., password strength, real-time checks).
 
-Dynamic DOM updates based on user interactions.
+• Dynamic DOM updates based on user interactions.
 
-Client-side routing for smoother navigation.
+• Client-side routing for smoother navigation.
 
 
-Developed as part of Level 2: Intermediate (Task 4) from Cognifyz.
+• Developed as part of Level 2: Intermediate (Task 4) from Cognifyz.
 
 # 🚀 Features
 
-Real-time form validation with custom rules.
+• Real-time form validation with custom rules.
 
-Password strength checking.
+• Password strength checking.
 
-Dynamic error/success messages.
+• Dynamic error/success messages.
 
-Smooth client-side routing.
+• Smooth client-side routing.
 
 
 # 🛠️ Technologies Used
 
-HTML5
+• HTML5
 
-CSS3
+• CSS3
 
-JavaScript (ES6)
+• JAVASCRIPT (ES6)
 
 
 # 🌐 APIs Used
 
-DOM API
+• DOM API
 
-Events API
+• Events API
 
-Constraint Validation API
+• Constraint Validation API
 
-History API
+• History API
 
 
 # 📂 Project Structure
 
 /project-root
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │── README.md
 
 # ▶️ How to Run
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/complex-form-validation.git
+ git clone https://github.com/your-username/complex-form-validation.git
 
 
 2. Open the project folder in VS Code (or any editor).
@@ -387,20 +391,20 @@ git clone https://github.com/your-username/complex-form-validation.git
 
 3. Right-click on index.html and select "Open with Live Server".
 
-If you don’t have it, install the Live Server extension in VS Code.
+ If you don’t have it, install the Live Server extension in VS Code.
 
 
 
 
 # 🔮 Future Improvements
 
-Add regex-based email/phone validation.
+• Add regex-based email/phone validation.
 
-Password strength meter with color indicators.
+• Password strength meter with color indicators.
 
-Save form data using localStorage or IndexedDB.
+• Save form data using localStorage or IndexedDB.
 
-Improve accessibility with ARIA support.
+• Improve accessibility with ARIA support.
 
 # ouput
 
