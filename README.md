@@ -1,4 +1,4 @@
-# task1   
+# task 
 # HTML Structure and Basic Server Interaction
 This project introduces the concept of server-side rendering and basic form submissions using Node.js and Express.
 # Objective
