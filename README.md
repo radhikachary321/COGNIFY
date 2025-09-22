@@ -318,3 +318,89 @@ Improve accessibility with ARIA support.
 
 ![Image](https://github.com/user-attachments/assets/058329c3-b2b1-4a7e-8287-79def2f8bf27)
 
+
+
+# task5
+# Complex Form Validation and Dynamic DOM Manipulation
+
+# 📖 Introduction
+
+This project demonstrates:
+
+Advanced form validation (e.g., password strength, real-time checks).
+
+Dynamic DOM updates based on user interactions.
+
+Client-side routing for smoother navigation.
+
+
+Developed as part of Level 2: Intermediate (Task 4) from Cognifyz.
+
+# 🚀 Features
+
+Real-time form validation with custom rules.
+
+Password strength checking.
+
+Dynamic error/success messages.
+
+Smooth client-side routing.
+
+
+# 🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript (ES6)
+
+
+# 🌐 APIs Used
+
+DOM API
+
+Events API
+
+Constraint Validation API
+
+History API
+
+
+# 📂 Project Structure
+
+/project-root
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+
+# ▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/complex-form-validation.git
+
+
+2. Open the project folder in VS Code (or any editor).
+
+
+3. Right-click on index.html and select "Open with Live Server".
+
+If you don’t have it, install the Live Server extension in VS Code.
+
+
+
+
+# 🔮 Future Improvements
+
+Add regex-based email/phone validation.
+
+Password strength meter with color indicators.
+
+Save form data using localStorage or IndexedDB.
+
+Improve accessibility with ARIA support.
+
+# ouput
+
